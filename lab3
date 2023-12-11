@@ -1,0 +1,19 @@
+import math
+import random
+def printList(lst):
+    for i in range(len(lst)):
+        for i in range(len(lst[i])):
+            print(lst[i][j], end='   ')
+n = int(input('setir sayini daxil edin--'))
+n = int(input('sutun sayini daxil edin--'))
+a = []
+for i in range(n):
+    a.append([])
+    for j in range(m):
+        a[i].append(random.randint(1,9))
+printList(a)
+print('')
+for i in range(n):
+    p = 0
+    for j in range(m):
+        print(math.sin(a[i][j]))
